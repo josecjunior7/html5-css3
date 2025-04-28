@@ -1,0 +1,92 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: Android;
+    src: url(../../fontes/idroid.otf) format(opentype);
+}
+@font-face {
+    font-family: Nova;
+    src: url(fontes/Nova_Square/NovaSquare-Regular.ttf) format(truetype);
+}
+body {
+    background-image: linear-gradient(to bottom, #4dc780, #6dd476);
+}
+header {
+    background-image: linear-gradient(to bottom, #00c853, #2e7d32);
+    padding: 10px;
+    margin: -20px;
+}
+h1#first {
+    font-family: Nova;
+    font-size: 34px;
+    text-align: center;
+    color: white;
+}
+header > p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+}
+nav > a {
+    font-family: Nova;
+    text-decoration: none;
+    color: white;
+    padding: 10px 8px 0px 12px;
+}
+nav > a:hover {
+    color: aqua;
+    text-decoration: underline;
+}
+main {
+    background-color: white;
+    width: 80vw;
+    padding: 0px 0px 0px 10px;
+    margin: auto;
+}
+main > h1.bug {
+    font-family: Android;
+    color: #006d2d;
+}
+main > h2.bug2 {
+    font-family: Android;
+    color: #006d2d;
+}
+main > h2.bug3 {
+    font-family: Android;
+    color: #006d2d;
+}
+main > p {
+    text-align: justify;
+    text-indent: 15px;
+    padding: 0px 10px 0px 0px;
+}
+main > picture.ft1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main > picture.ft2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 10px 0px 0px;
+}
+main > picture.ft3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main > iframe {
+    width: 97%;
+    height: 100%;
+    border: none;
+    display: block; 
+}
+main > main {
+    background-color: #006d2d;
+    width: 75vw;
+    padding: 0px 10px 0px 0px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px #022533;
+    margin: auto;
+}

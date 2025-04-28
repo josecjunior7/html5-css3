@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            background-color: lightslategray;
+            margin: 0px;
+        }
+        header {
+            background-color: lightslategray;
+            padding: 4px;
+            margin: 5px;
+        }
+        nav {
+            background-color: dimgray;
+            padding: 2px;
+        }
+        nav > a {
+            text-decoration: none;
+            color: rgb(0, 150, 209);
+            font-weight: bold;
+            margin-right: 20px;
+        }
+        nav > a:hover {
+            text-decoration: underline;
+        }
+        main {
+            background-color: #cfcfcf;
+            padding: 7px;
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.473);
+        }
+        article {
+            background-color: #cfcfcf;
+            padding: 3px;
+        }
+        article > aside {
+            background-color: lightslategray;
+        }
+        footer {
+            background-color: rgb(43, 43, 43);
+            color: white;
+            text-align: center;
+            padding: 5px;
+            margin: 0px;
+        }
+        footer > p {
+            margin: 0px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Kakashi espama Kamui na guerra</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime earum cupiditate assumenda excepturi nesciunt rerum illum doloremque expedita odio porro accusantium nisi, ipsam dolore, soluta inventore? Distinctio molestias quod doloribus!</p>
+                <aside>
+                    <p>Artigo escrito por: Hater</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Lyoto Júnior</p>
+    </footer>
+</body>
+</html>

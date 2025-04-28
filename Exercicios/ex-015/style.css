@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+body {
+    background-color: #680BBE; /* Cor roxa em hexadecimal para melhor legibilidade */
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: chartreuse;
+}
+h2 {
+    color: chartreuse;
+}
+p {
+    color: rgb(37, 37, 37); text-align: justify;
+}
