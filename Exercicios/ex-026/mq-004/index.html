@@ -3,9 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=menu" />
     <title>Media Query</title>
+    <link rel="stylesheet" href="estilos/style.css">
 </head>
 <body>
-    
+    <header>
+        <h1>Meu Website</h1>
+        <i id="burg" class="material-symbols-outlined" onclick="clickMenu()"> menu </i>
+        <menu id="nav">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Notícias</a></li>
+                <li><a href="#">Curiosidades</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Testando Media Queries</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero voluptas suscipit modi possimus vitae a beatae? Officia similique numquam quibusdam porro, iste asperiores accusantium blanditiis beatae quaerat voluptatem, odit explicabo? Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum voluptas rem voluptatibus cumque suscipit. Qui deleniti voluptatum minus quam eum deserunt sequi fugiat quibusdam fugit laboriosam eligendi, amet fuga possimus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis velit corporis, eligendi adipisci delectus quis numquam fugit praesentium id a vero, consectetur cumque est fugiat impedit iste sapiente optio iure?</p>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores quis mollitia vitae, ratione impedit natus odit consequatur aliquam reprehenderit dignissimos magnam est eius temporibus fugit odio ut provident perferendis accusantium. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos nulla in id unde architecto quam? Dolores et quo vero animi cupiditate unde, labore magnam similique voluptatem architecto velit cumque sequi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis nihil facilis id eligendi quos, quasi, sequi atque laborum officia iste ut esse molestiae odit magnam et. Nihil possimus quas sunt.</p>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia eligendi, magnam enim omnis vitae necessitatibus incidunt neque. Eligendi odit, rerum ipsam itaque, provident iusto incidunt nisi, ab hic quod illo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum reprehenderit aliquid accusantium excepturi voluptatem? Optio itaque unde officiis. Voluptatibus accusantium minus suscipit nostrum dolorum quo inventore aliquid magni fuga ut.</p>
+        </article>
+    </main>
+    <script>
+        function clickMenu() {
+            if (nav.style.display == 'block') {
+                nav.style.display = 'none'
+            } else {
+                nav.style.display = 'block'
+            }
+        }
+    </script>
 </body>
 </html>
