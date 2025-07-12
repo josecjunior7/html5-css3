@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.background {
+    height: 100vh;
+    background-image: linear-gradient( #313131, #000000);
+}
+
+header {
+
+}
